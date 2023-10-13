@@ -1,35 +1,71 @@
-/* .profile {
-
+.profile {
+    max-width: 40%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    overflow: hidden;
+    border-radius: 5%;
 }
     
 .description {
-
-}
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(90deg, #faf0cd, #fab397);
+    }
+  
+    
 
 .avatar {
-
+    display: block;
+    max-width: 40%;
+    margin-top: 40px;
+    border-radius: 114px;
+    border: 5px dotted rgba(0, 0, 0, 0.419);
+    background-color: transparent;
 }
 
 .name {
-
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 40px;  
 }
 
 .tag {
-
+font-style: oblique;
+font-size: 40px;
+margin: 10px;
 }
 
 .location {
-
+font-size: 40px;
 }
 
-.stats {
-
-} */
+.statsList {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.statsItem {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+    font-size: 25px;
+    text-align: center;
+    border: 1px solid #000;
+    background-color: rgba(241, 241, 241, 0.833);
+}
 
 /* .label {
     
-}
-
+} */
+/* 
 .quantity {
 
 } */

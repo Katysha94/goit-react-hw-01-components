@@ -1,0 +1,41 @@
+.transactionHistory {
+    background: linear-gradient(90deg, #faf0cd, #fab397);
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 80px;
+    
+}
+
+.tableHead {
+    font-size: 70px;
+    text-align: center;
+
+}
+
+.tableLine th,
+.tableLine td {
+    text-align: center;
+    border-bottom: 5px solid #ffff;
+    border-right: 3px solid #ffff;;
+}
+
+.tableLine th:last-child {
+    border-right: none;
+}
+.tableLine tr:last-child td {
+    border-bottom: none;
+}
+
+.tableLine td:last-child {
+    border-right: none;
+}
+
+.tableValue {
+    padding: 20px 50px;
+}
+
+.transactionData {
+    font-size: 30px;
+    text-transform: capitalize;
+}
